@@ -1,8 +1,27 @@
 aid: serviceware-se
-name: Serviceware-se
-description: 'Serviceware-se is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/serviceware-se.png
+name: Serviceware SE
+description: 'Serviceware SE is a German enterprise software, consulting, and managed-services
+  company with more than 25 years in business, roughly 420 employees, and over EUR 100
+  million in annual revenue. Its platform spans Enterprise Service Management (ESM) for IT,
+  HR, and customer service, IT Financial Management (ITFM) for cost tracking and technology
+  business management, Corporate Performance Management (CPM) for budgeting, planning, and
+  reporting, AI-powered Knowledge Management, and Field Service Management. Serviceware
+  positions its platform as AI-native, with no-code workflows, data integration, governance,
+  and self-service capabilities. It was surfaced as a portfolio company of Norwest Venture
+  Partners and added to the API Evangelist network. No public developer portal, API reference,
+  or machine-readable API surface was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/serviceware-se/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Enterprise Service Management
+- IT Financial Management
+- Corporate Performance Management
+- Knowledge Management
+- Field Service Management
+- Enterprise Software
+- Germany
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +48,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/serviceware-se-domain-security.yml
 - type: Website
   url: https://serviceware-se.com
+- type: Blog
+  url: https://serviceware-se.com/en/blog
+- type: Support
+  url: https://serviceware-se.com/en/welcome-serviceware-support
+- type: HelpCenter
+  url: https://serviceportal.serviceware.net/servicewareportal/
+- type: PrivacyPolicy
+  url: https://serviceware-se.com/en/privacy
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

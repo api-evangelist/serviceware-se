@@ -1,0 +1,14 @@
+{
+  "repo": "serviceware-se",
+  "feeds": [
+    {
+      "source": "https://serviceware-se.com",
+      "feed_url": "https://serviceware-se.com",
+      "title": "",
+      "saved": 0,
+      "method": "none"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-07-25T15:00:33Z"
+}
