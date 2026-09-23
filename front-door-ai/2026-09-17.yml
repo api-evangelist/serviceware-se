@@ -1,0 +1,30 @@
+# Front Door AI Index — serviceware-se — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: serviceware-se
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: serviceware-se.com
+  final_host: serviceware-se.com
+  ownership: own
+  owner: serviceware-se
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 35
+  host_score: 35
+  density: 18.32
+  words: 1911
+  tiers:
+    agentic: 6
+    core: 29
+    model: 0
+  ambiguous: 8
+  top_terms:
+    AI: 29
+    automation: 7
+    agentic: 4
+    AI agent: 1
+    AI assistant: 1
+    agent: 1
