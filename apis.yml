@@ -48,7 +48,7 @@ tags:
 - Enterprise Service Management
 - IT Financial Management
 - Corporate Performance Management
-- Knowledge-Management
+- Knowledge Management
 - Field Service Management
 - Enterprise Software
 - Germany
@@ -61,6 +61,7 @@ tags_raw:
 - Field Service Management
 - Enterprise Software
 - Germany
+- Knowledge-Management
 apis: []
 maintainers:
 - FN: Kin Lane
